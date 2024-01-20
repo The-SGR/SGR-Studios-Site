@@ -1,0 +1,53 @@
+html{
+    background-image: url(res/site-bg1.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+.title, .txt{
+    color: #fff;
+}
+
+.button{display: inline-block;cursor: pointer; font-size:17px;text-decoration:none;padding:10px 27px; color:#3da5ff;background:#1c1c1c;border-radius:60px;border:6px solid #3da5ff;}
+
+.button:hover{background:#3da5ff;color:#1c1c1c;border:6px solid #1c1c1c;transition: all 0.4s ease;}
+
+.blue{
+    color: #5eb4ff;
+}
+
+.red{
+    color: #eb2828;
+}
+
+.sgr-studios-font{
+    background: linear-gradient(45deg, #3da5ff, #d6ecff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Montserrat';
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer{
+    background-image: url(res/footer-bg0.png);
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sgr-f-txt{
+    background: linear-gradient(45deg, #3da5ff, #d6ecff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
